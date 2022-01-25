@@ -1,4 +1,4 @@
-//FINALENIGMA
+//THE ENIGMA AND BOMBE
 #include <stdio.h>
 #include <time.h>
 #include <string.h>
