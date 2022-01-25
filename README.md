@@ -68,7 +68,7 @@ rintf("-> ");
 scanf("%d",&num);
 ```
 ***ENIGMA*** for **ENCRYPTION** \
-***BOMBE*** for **DECRYPTION** 
+***[BOMBE](https://en.wikipedia.org/wiki/Bombe)*** for **DECRYPTION** 
 ###  A - ENIGMA 
 ### STEP A.3 - INPUT
 If u entered 1 you have selected encryption \
