@@ -68,11 +68,11 @@ int main()
     
     // ANIMATION-----
     
-while(!kbhit()){
+
 
     animation();
 
-    }
+    
 
 
     char loop[10];
