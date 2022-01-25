@@ -184,7 +184,7 @@ do{
     Beep(800,500);
 
 
-// MESSAGING PART-------
+// MESSAGING PART-----
    
     msg();
 
