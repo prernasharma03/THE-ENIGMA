@@ -16,7 +16,7 @@ To run our program, the user must download the espeak synthesizer(http://espeak.
 #include <conio.h> 
 ```
 ## HOW IT WORKS !
-### STEP1 - GET TIME
+### STEP 1 - GET TIME
 get the current date and time's(HOUR's) ASCII value with help of this code
     
    ```c
@@ -52,3 +52,97 @@ TIME - 18:00 -> 06:00
 
 sum = S1 + S2 = 402
 ```
+### STEP 2 - CHOOSE
+In this step u have to choose between 2 options
+```c
+system("color 7C");
+int num;
+printf("CHOOSE AN OPTION \n");
+printf("BY ENTERING A NUMBER\n");
+printf("\n");
+printf("[1] ENIGMA\n");
+printf("[2] BOMBE\n");
+printf("\n");
+rintf("-> ");
+scanf("%d",&num);
+```
+***ENIGMA*** for **ENCRYPTION** \
+***BOMBE*** for **DECRYPTION** 
+###  A - ENIGMA 
+### STEP A.3 - INPUT
+If u entered 1 you have selected encryption \
+So now u have input your data which has to be encrypted and the following code does that
+```c
+// TAKING INPUT FROM USER---
+gets(a);
+for(i=0;i<100;i++){
+ch1=getch();
+if(ch1==13)
+break;
+a[i]=ch1;
+printf("%c",ch1);}
+a[i]='\0';
+```
+### STEP A.4 - KEY
+Making **KEY**  is a 2 step process followed by output
+#### 1 LETTERS INTERCHANGE
+First we need to determine the length of string is odd or even to determine the end point of loop \
+
+
+
+
+```c
+
+// STRING LENGTH EVEN OR ODD
+
+if(strlen(a)%2==0){
+b1=strlen(a);
+} else{
+b1=strlen(a)-1;
+}
+```
+Here alternate elements of string are swapped
+```c
+
+// LETTER INTERCHANGE
+
+
+for(i=0;i<b1;i+=2){
+   temp1=a[i];
+   a[i]=a[i+1];
+   a[i+1]=temp1;
+}
+```
+FOR EG.
+```c
+heya -> ehay
+```
+
+#### 2 SETTING KEY
+***KEY*** is half of length of input subtracted by 1st digit of sum which is obtained in STEP 1.
+```c
+int key;
+key=strlen(a)/2-sum%10; 
+      
+```
+#### OUTPUT
+In output ASCII values of string a[] are added with key and key is incremented with every character in string
+```c
+printf("\n\nENCODED MESSAGE IS : ");
+for(i=0;i<strlen(a);i++){
+   system("color A");
+   key=key+1;
+   printf("%c",a[i]+key); 
+}
+printf("\n\nENCRYPTION SUCESSFUL!\n\n");
+```
+FOR EG.
+```c 
+INPUT : AA
+A's ASCII VALUE = 65
+SO
+65 65
+IS CONVERTED TO 
+65+KEY 66+KEY
+```
+this step was taken to remove possiblity of repeatation. 
