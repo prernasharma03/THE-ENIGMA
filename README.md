@@ -147,3 +147,5 @@ IS CONVERTED TO
 65+KEY 66+KEY
 ```
 this step was taken to remove possiblity of repeatation. 
+### B - BOMBE
+### STEP B.3 - INPUT
