@@ -13,7 +13,7 @@ void mask();
 void animation();
 
 
-// PASSWORD MASKING*----
+// PASSWORD MASKING*-----
 void mask(char spassword[]){
 char ch; int i;
 for(i=0;i<50;i++){
