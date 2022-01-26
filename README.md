@@ -326,7 +326,7 @@ printf("%c",ch);
 Animation was created by hardcoding frames and running it in a finite while loop
 ## CREDITS
 This project was done by \
-@prernasharma03 \
-@adijams01 \
-@abuzEr-g \
-@Ishan2202 
+[Prerna Sharma03](https://github.com/prernasharma03) \
+[Aditya Jambhale](https://github.com/adijams01) \
+[Abuser Ganjifrockwala](https://github.com/abuzEr-g) \
+[Ishan Bhatt](https://github.com/Ishan2202) 
