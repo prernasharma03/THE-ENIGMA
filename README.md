@@ -136,7 +136,7 @@ heya -> ehay
 ```
 
 #### 2 SETTING KEY
-***KEY*** is half of length of input subtracted by 1st digit of sum which is obtained in STEP 1.
+***KEY*** is half of length of input subtracted by 1st digit of sum which is obtained in [STEP 1](https://github.com/prernasharma03/THE-ENIGMA#step-1---get-time).
 ```c
 int key;
 key=strlen(a)/2-sum%10; 
@@ -175,7 +175,7 @@ scanf("%s",b);
 ***KEY*** is subtracted \
 This is also a 2 step process followed by output
 #### 1 SETTING KEY
-***KEY*** is half of length of input subtracted by 1st digit of sum which is obtained in STEP 1. \
+***KEY*** is half of length of input subtracted by 1st digit of sum which is obtained in [STEP 1](https://github.com/prernasharma03/THE-ENIGMA#step-1---get-time). \
 After setting the ***KEY*** string b 's each character is decremented by it's ASCII value. \
 FOR EG.
 ```c
