@@ -1,4 +1,7 @@
 # THE-ENIGMA
+## TABLE OF CONTENT
+1. [Introduction](https://github.com/prernasharma03/THE-ENIGMA#introduction)
+2. [Prerequisite](#my-second-title)
 ## INTRODUCTION
 [ENIGMA](https://en.wikipedia.org/wiki/Enigma_machine) was a Cipher Machine Used by Nazis at time of WW2 \
 This project encrypts and decrypts the data entered by the user.\
