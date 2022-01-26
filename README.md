@@ -313,5 +313,5 @@ Animation was created by hardcoding frames and running it in a finite while loop
 This project was done by \
 @prernasharma03 \
 @adijams01 \
-@abuzEr-g 
- 
+@abuzEr-g \
+@Ishan2202 
