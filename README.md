@@ -8,7 +8,12 @@
    3. [A-ENIGMA](https://github.com/prernasharma03/THE-ENIGMA#a---enigma)
    4. [B- BOMBE](https://github.com/prernasharma03/THE-ENIGMA#b---bombe)
 5. [OTHER FEATURES](https://github.com/prernasharma03/THE-ENIGMA#other-features)
-6. [CREDITS](https://github.com/prernasharma03/THE-ENIGMA#credits)
+   1. [VOICE](https://github.com/prernasharma03/THE-ENIGMA#voice)
+   2. [MESSAGE BOX](https://github.com/prernasharma03/THE-ENIGMA#message-box)
+   3. [OPENNING WEBSITE](https://github.com/prernasharma03/THE-ENIGMA#opening-website)
+   4. [LOGIN SYSTEM](https://github.com/prernasharma03/THE-ENIGMA#login-system)
+   5. [ANIMATION](https://github.com/prernasharma03/THE-ENIGMA#animation)
+7. [CREDITS](https://github.com/prernasharma03/THE-ENIGMA#credits)
 ## INTRODUCTION
 [ENIGMA](https://en.wikipedia.org/wiki/Enigma_machine) was a Cipher Machine Used by Nazis at time of WW2 \
 This project encrypts and decrypts the data entered by the user.\
