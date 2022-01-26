@@ -85,6 +85,7 @@ printf("%c",ch1);}
 a[i]='\0';
 ```
 ### STEP A.4 - KEY
+***KEY*** is added \
 Making **KEY**  is a 2 step process followed by output
 #### 1 LETTERS INTERCHANGE
 First we need to determine the length of string is odd or even to determine the end point of loop \
@@ -139,13 +140,178 @@ printf("\n\nENCRYPTION SUCESSFUL!\n\n");
 ```
 FOR EG.
 ```c 
-INPUT : AA
-A's ASCII VALUE = 65
-SO
-65 65
-IS CONVERTED TO 
-65+KEY 66+KEY
+INPUT : AAAA
+A's ASCII value = 65
+So
+65 65 65 65
+Is converted into
+65+KEY 66+KEY 67+key 68+key
 ```
 this step was taken to remove possiblity of repeatation. 
 ### B - BOMBE
 ### STEP B.3 - INPUT
+If u have entered 2 you have selected decryption.
+Enter the Encrypted data using this code
+```c
+char b[100];
+scanf("%s",b);
+```
+### STEP B.4 - KEY
+***KEY*** is subtracted \
+This is also a 2 step process followed by output
+#### 1 SETTING KEY
+***KEY*** is half of length of input subtracted by 1st digit of sum which is obtained in STEP 1. \
+After setting the ***KEY*** string b 's each character is decremented by it's ASCII value. \
+FOR EG.
+```c
+INPUT : AAAA
+A's ASCII value =65
+So
+65 65 65 65
+is converted into
+65-key 64-key 63-KEY 62-KEY
+
+```
+#### 2 LETTERS INTERCHANGE
+First we need to determine the length of string is odd or even to determine the end point of loop \
+
+
+
+
+```c
+
+// STRING LENGTH EVEN OR ODD
+
+if(strlen(b)%2==0){
+b1=strlen(b);
+} else{
+b1=strlen(b)-1;
+}
+```
+Here alternate elements of string are swapped
+```c
+
+// LETTER INTERCHANGE
+
+
+for(i=0;i<b1;i+=2){
+   temp2=b[i];
+   b[i]=b[i+1];
+   b[i+1]=temp2;
+}
+```
+FOR EG.
+```c
+heya -> ehay
+```
+#### OUTPUT
+```c
+printf("  \nDECODED MESSAGE IS : ");
+for(i=0;i<strlen(b);i++){
+  system("color E");
+  printf("%c",x2[i]);
+}
+printf("\n\nDECRYPTION SUCESSFUL!\n\n");
+```
+## OTHER FEATURES
+### VOICE
+we use [espeak](http://espeak.sourceforge.net/) synthesizer for voice function
+here is a sample code
+```c
+#include<stdio.h>
+#include<windows.h>
+
+int main() {
+     system ("espeak -ven-us+f2 WE_CARE_FOR_YOUR_PRIVACY");
+    return 0;
+}
+```
+You select different voice from 5 male and 5 female voices by making changes in *espeak -ven-us+f2* \
+**f** for female and **m** for male \
+**1-5** for different pitches 
+### MESSAGE BOX
+You simply put a a message box by referring this sample code
+```c
+#include<stdio.h>
+#include<windows.h>
+
+int main() {
+    
+   MessageBox(0,"\n\n\nWE CARE FOR YOUR PRIVACY!\n\n","WELCOME",1);
+      Beep(800,500);
+      
+    return 0;
+}
+```
+Beep's frequency can be adjusted
+### OPENING WEBSITE
+This code opens any website you want like google.com , whatsapp.com , etc... \
+so you can send encrypted messages from website you want !
+```c
+#include<stdio.h>
+#include<windows.h>
+#include<conio.h>
+
+int main() {
+    
+       // WEB PART------
+    printf("\nDo you want to open any services? (yes/no)\n");
+    printf("-> ");
+    char ans[10]; int f;
+    scanf("%s",ans);
+    if (ans[0]=='y'&&ans[1]=='e'&&ans[2]=='s'){
+        f=1;}
+        else{
+            f=0;
+        }
+        switch(f){
+            case 1:
+         printf("\n\nWHICH COMMUNICATION SERVICES DO YOU WANT TO OPEN?\n");
+    
+    char i11[100];
+    scanf("%s",i11);
+
+    
+    char i12[100]="\"Start www.";
+    strcat(i12,i11);
+    strcat(i12,".com\"");
+    system(i12);
+
+while(!kbhit()){
+        ;
+    }
+
+      break;
+
+case 0:
+        printf("\nOKAY\n");
+        break;
+}
+
+    return 0;
+}
+```
+### LOGIN SYSTEM
+we use login system by simple switch case method but , we also masked the password using the following code
+```c
+void mask(char spassword[]){
+char ch; int i;
+for(i=0;i<50;i++){
+ch=getch();
+if(ch==13)
+break;
+spassword[i]=ch;
+ch='*';
+printf("%c",ch);
+}
+   spassword[i]='\0';
+}
+``` 
+### ANIMATION
+Animation was created by hardcoding frames and running it in a finite while loop
+## CREDITS
+This project was done by \
+@prernasharma03 \
+@adijams01 \
+@abuzEr-g 
+ 
