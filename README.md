@@ -103,7 +103,7 @@ a[i]='\0';
 ***KEY*** is added \
 Making **KEY**  is a 2 step process followed by output
 #### 1 LETTERS INTERCHANGE
-First we need to determine the length of string is odd or even to determine the end point of loop \
+First we need to determine the length of string is odd or even to determine the end point of loop 
 
 
 
@@ -188,7 +188,7 @@ is converted into
 
 ```
 #### 2 LETTERS INTERCHANGE
-First we need to determine the length of string is odd or even to determine the end point of loop \
+First we need to determine the length of string is odd or even to determine the end point of loop 
 
 
 
