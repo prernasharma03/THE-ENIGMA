@@ -337,7 +337,7 @@ printf("%c",ch);
 ``` 
 ### ANIMATION
 Animation was created by hardcoding frames and running it in a finite while loop
-## Future Scope
+## SCOPE OF IMPROVEMENT
 1. The program can be further improved by using complex algorithms, as well as complex key.  
     System can be made to encrypt the data on the basis of Unicode values. 
 2. It also can be improved for encryption and decryption of images. 
