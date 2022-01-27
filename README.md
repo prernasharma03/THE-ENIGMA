@@ -346,5 +346,5 @@ Animation was created by hardcoding frames and running it in a finite while loop
 This project was done by \
 [Prerna Sharma](https://github.com/prernasharma03) \
 [Aditya Jambhale](https://github.com/adijams01) \
-[Abuser Ganjifrockwala](https://github.com/abuzEr-g) \
-[Ishan Bhatt](https://github.com/Ishan2202) 
+[Abuzer Ganjifrockwala](https://github.com/abuzEr-g) \
+[Ishan Bhat](https://github.com/Ishan2202) 
