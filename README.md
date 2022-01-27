@@ -2,7 +2,8 @@
 ## TABLE OF CONTENT
 1. [INTRODUCTION](https://github.com/prernasharma03/THE-ENIGMA#introduction)
 2. [PREREQUISITE](https://github.com/prernasharma03/THE-ENIGMA#introduction)
-3. [HOW IT WORKS !](https://github.com/prernasharma03/THE-ENIGMA#how-it-works-)
+3. [SAMPLE OUTPUT]()
+4. [HOW IT WORKS !](https://github.com/prernasharma03/THE-ENIGMA#how-it-works-)
    1. [STEP 1](https://github.com/prernasharma03/THE-ENIGMA#step-1---get-time)
    2. [STEP 2](https://github.com/prernasharma03/THE-ENIGMA#step-2---choose)
    3. [A-ENIGMA](https://github.com/prernasharma03/THE-ENIGMA#a---enigma)
@@ -13,7 +14,8 @@
    3. [OPENNING WEBSITE](https://github.com/prernasharma03/THE-ENIGMA#opening-website)
    4. [LOGIN SYSTEM](https://github.com/prernasharma03/THE-ENIGMA#login-system)
    5. [ANIMATION](https://github.com/prernasharma03/THE-ENIGMA#animation)
-7. [CREDITS](https://github.com/prernasharma03/THE-ENIGMA#credits)
+7. [SCOPE OF IMPROVEMENT]()
+8. [CREDITS](https://github.com/prernasharma03/THE-ENIGMA#credits)
 ## INTRODUCTION
 [ENIGMA](https://en.wikipedia.org/wiki/Enigma_machine) was a Cipher Machine Used by Nazis at time of WW2 \
 This project encrypts and decrypts the data entered by the user.\
@@ -30,6 +32,17 @@ To run our program, the user must download the [espeak](http://espeak.sourceforg
 #include <stdlib.h> 
 #include <windows.h> 
 #include <conio.h> 
+```
+## SAMPLE OUTPUT
+### ENCRYPTION
+```c
+Input : Hello people
+Output : lPuv+{r~⌂⌂v~
+```
+#### DECRYPTION
+```c
+Input : lPuv+{r~⌂⌂v~
+Output : Hello people
 ```
 ## HOW IT WORKS !
 ### STEP 1 - GET TIME
@@ -324,6 +337,11 @@ printf("%c",ch);
 ``` 
 ### ANIMATION
 Animation was created by hardcoding frames and running it in a finite while loop
+## Future Scope
+1. The program can be further improved by using complex algorithms, as well as complex key.  
+    System can be made to encrypt the data on the basis of Unicode values. 
+2. It also can be improved for encryption and decryption of images. 
+3. It can also be improved for encryption and decryption of files
 ## CREDITS
 This project was done by \
 [Prerna Sharma](https://github.com/prernasharma03) \
