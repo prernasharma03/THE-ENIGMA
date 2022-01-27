@@ -2,7 +2,7 @@
 ## TABLE OF CONTENT
 1. [INTRODUCTION](https://github.com/prernasharma03/THE-ENIGMA#introduction)
 2. [PREREQUISITE](https://github.com/prernasharma03/THE-ENIGMA#introduction)
-3. [SAMPLE OUTPUT]()
+3. [SAMPLE OUTPUT](https://github.com/prernasharma03/THE-ENIGMA/blob/main/README.md#sample-output)
 4. [HOW IT WORKS !](https://github.com/prernasharma03/THE-ENIGMA#how-it-works-)
    1. [STEP 1](https://github.com/prernasharma03/THE-ENIGMA#step-1---get-time)
    2. [STEP 2](https://github.com/prernasharma03/THE-ENIGMA#step-2---choose)
@@ -14,7 +14,7 @@
    3. [OPENNING WEBSITE](https://github.com/prernasharma03/THE-ENIGMA#opening-website)
    4. [LOGIN SYSTEM](https://github.com/prernasharma03/THE-ENIGMA#login-system)
    5. [ANIMATION](https://github.com/prernasharma03/THE-ENIGMA#animation)
-7. [SCOPE OF IMPROVEMENT]()
+7. [SCOPE OF IMPROVEMENT](https://github.com/prernasharma03/THE-ENIGMA/blob/main/README.md#future-scope)
 8. [CREDITS](https://github.com/prernasharma03/THE-ENIGMA#credits)
 ## INTRODUCTION
 [ENIGMA](https://en.wikipedia.org/wiki/Enigma_machine) was a Cipher Machine Used by Nazis at time of WW2 \
