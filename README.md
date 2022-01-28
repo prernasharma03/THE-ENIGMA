@@ -175,7 +175,7 @@ A's ASCII value = 65
 So
 65 65 65 65
 Is converted into
-65+KEY 66+KEY 67+key 68+key
+66+KEY 67+KEY 68+key 69+key
 ```
 this step was taken to remove possiblity of repeatation. 
 ### B - BOMBE
