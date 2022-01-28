@@ -20,7 +20,8 @@
 [ENIGMA](https://en.wikipedia.org/wiki/Enigma_machine) was a Cipher Machine Used by Nazis at time of WW2 \
 This project encrypts and decrypts the data entered by the user.\
 The key is based on [ASCII](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html) values of certain sets of variables(DATE,TIME,INPUT).\
-We have added various features in our code like the voice, animation, sound,etc.
+The key changes every hour , so perpetrator have only an hour before the key changes. \
+We have added various other features in our code like the voice, animation, sound,etc.
 ## PREREQUISITE
 To run our program, the user must download the [espeak](http://espeak.sourceforge.net/) synthesizer used in voice feature. 
 ### HEADERS USED
@@ -46,7 +47,8 @@ Output : Hello people
 ```
 ## HOW IT WORKS !
 ### STEP 1 - GET TIME
-get the current date and time's(HOUR's) ASCII value with help of this code
+get the current date and time's(HOUR's) ASCII value with help of this code \
+due to this code key changes every hour.
     
    ```c
    char buf[LEN];
@@ -341,7 +343,8 @@ Animation was created by hardcoding frames and running it in a finite while loop
 1. The program can be further improved by using complex algorithms, as well as complex key.  
     System can be made to encrypt the data on the basis of Unicode values. 
 2. It also can be improved for encryption and decryption of images. 
-3. It can also be improved for encryption and decryption of files
+3. It can also be improved for encryption and decryption of files.
+4. Key changing period can change as per convenience.
 ## CREDITS
 This project was done by \
 [Prerna Sharma](https://github.com/prernasharma03) \
