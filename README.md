@@ -47,7 +47,7 @@ Output : Hello people
 ```
 ## HOW IT WORKS !
 ### STEP 1 - GET TIME
-get the current date and time's(HOUR's) ASCII value with help of this code \
+get the sum of current date and time's(HOUR's) ASCII value with help of this code \
 due to this code key changes every hour.
     
    ```c
