@@ -351,3 +351,9 @@ This project was done by \
 [Aditya Jambhale](https://github.com/adijams01) \
 [Abuzer Ganjifrockwala](https://github.com/abuzEr-g) \
 [Ishan Bhat](https://github.com/Ishan2202) 
+## REFERENCES
+1. [espeak](https://youtu.be/lC-i3Q-2KcY)
+2. [Beep](https://www.geeksforgeeks.org/beep-function-in-c-with-examples/)
+3. [Colourful Text/Background](https://youtu.be/aMuulzbRfk4)
+4. [Time Function](https://www.geeksforgeeks.org/time-function-in-c/amp/)
+5. [Message Box](https://youtu.be/vA8TMASj7WM)
